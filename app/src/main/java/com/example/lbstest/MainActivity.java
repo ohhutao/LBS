@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         SDKInitializer.initialize(getApplicationContext());
         //初始化要在绑定布局之前使用
         setContentView(R.layout.activity_main);
+
         mapView = (MapView) findViewById(R.id.nmapView);
         baiduMap = mapView.getMap();
         //把我的位置显示在地图上
